@@ -515,7 +515,7 @@ st.markdown("""
         ✓ Holding period & AMT basics explained<br>
         ✓ All inputs editable, formulas included
     </p>
-    <a href="https://clearmetric.gumroad.com" target="_blank">
+    <a href="https://clearmetric.gumroad.com/l/stock-options" target="_blank">
         Get It on Gumroad — $16.99 →
     </a>
 </div>
@@ -527,19 +527,19 @@ cx1, cx2, cx3 = st.columns(3)
 with cx1:
     st.markdown("""
     **🔥 FIRE Calculator** — Plan early retirement
-    [Get it →](https://clearmetric.gumroad.com)
+    [Get it →](https://clearmetric.gumroad.com/l/fire-calculator)
     """)
 with cx2:
     st.markdown("""
     **📈 Stock Portfolio Tracker** — $17.99
     Track dividends, performance, rebalancing.
-    [Get it →](https://clearmetric.gumroad.com)
+    [Get it →](https://clearmetric.gumroad.com/l/stock-portfolio-tracker)
     """)
 with cx3:
     st.markdown("""
     **🏢 LLC vs S-Corp Calculator** — $16.99
     Compare taxation, find your break-even.
-    [Get it →](https://clearmetric.gumroad.com)
+    [Get it →](https://clearmetric.gumroad.com/l/llc-vs-scorp)
     """)
 
 # Footer
