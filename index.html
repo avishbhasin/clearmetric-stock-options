@@ -29,6 +29,34 @@
       }
       @keyframes spin { to { transform: rotate(360deg); } }
     </style>
+    <script type="application/ld+json">
+{
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Stock Options Calculator (ISO/NSO)",
+      "description": "Free stock options calculator for ISO and NSO. Model exercise scenarios, AMT impact, and tax optimization strategies.",
+      "url": "https://avishbhasin.github.io/clearmetric-stock-options/",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "description": "Free interactive calculator. Premium Excel version available for $16.99"
+      },
+      "author": {
+            "@type": "Organization",
+            "name": "ClearMetric",
+            "url": "https://avishbhasin.github.io/clearmetric/"
+      },
+      "keywords": "stock options calculator, ISO, NSO, AMT, equity compensation, exercise strategy"
+}
+    </script>
+    <link rel="canonical" href="https://avishbhasin.github.io/clearmetric-stock-options/" />
+    <meta property="og:url" content="https://avishbhasin.github.io/clearmetric-stock-options/" />
+    <link rel="related" href="https://avishbhasin.github.io/clearmetric-fire-calculator/" title="FIRE Calculator Pro" />
+    <link rel="related" href="https://avishbhasin.github.io/clearmetric-startup-runway/" title="Startup Runway Calculator" />
+    <link rel="related" href="https://avishbhasin.github.io/clearmetric-side-hustle-tax/" title="Side Hustle Tax Estimator" />
   </head>
   <body>
     <div id="root">
@@ -55,6 +83,17 @@
         },
         document.getElementById("root"),
       );
+    </script>
+    <div id="clearmetric-footer" style="display:none;position:fixed;bottom:0;left:0;right:0;background:#1a1a2e;border-top:2px solid #4fc3f7;padding:12px 20px;text-align:center;z-index:9999;font-family:Inter,sans-serif;">
+      <div style="font-size:12px;color:#888;margin-bottom:8px;">More Free Tools from ClearMetric</div>
+      <div><a href="https://avishbhasin.github.io/clearmetric-fire-calculator/" style="color:#4fc3f7;text-decoration:none;padding:8px 16px;border:1px solid #4fc3f7;border-radius:6px;font-size:14px;display:inline-block;margin:4px;">FIRE Calculator Pro</a> <a href="https://avishbhasin.github.io/clearmetric-startup-runway/" style="color:#4fc3f7;text-decoration:none;padding:8px 16px;border:1px solid #4fc3f7;border-radius:6px;font-size:14px;display:inline-block;margin:4px;">Startup Runway Calculator</a> <a href="https://avishbhasin.github.io/clearmetric-side-hustle-tax/" style="color:#4fc3f7;text-decoration:none;padding:8px 16px;border:1px solid #4fc3f7;border-radius:6px;font-size:14px;display:inline-block;margin:4px;">Side Hustle Tax Estimator</a></div>
+      <div style="margin-top:8px;"><a href="https://clearmetric.gumroad.com/l/stock-options" style="color:#ffd700;text-decoration:none;font-size:13px;font-weight:600;">Get the Premium Excel Version ($16.99) &rarr;</a></div>
+    </div>
+    <script>
+      setTimeout(function() {
+        var footer = document.getElementById('clearmetric-footer');
+        if (footer) footer.style.display = 'block';
+      }, 20000);
     </script>
   </body>
 </html>
