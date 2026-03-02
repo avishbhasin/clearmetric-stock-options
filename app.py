@@ -170,6 +170,7 @@ st.markdown("---")
 # ---------------------------------------------------------------------------
 with st.sidebar:
     st.markdown("## Your Options")
+    st.button("🔄 Update Results", use_container_width=True)
 
     st.markdown("### Grant Details")
     num_options = st.number_input(
@@ -177,7 +178,6 @@ with st.sidebar:
         value=10_000,
         min_value=1,
         step=1_000,
-        format="%d",
     )
     strike_price = st.number_input(
         "Strike price ($)",
@@ -221,7 +221,6 @@ with st.sidebar:
         value=150_000,
         min_value=0,
         step=5_000,
-        format="%d",
     )
     state = st.selectbox(
         "State",
